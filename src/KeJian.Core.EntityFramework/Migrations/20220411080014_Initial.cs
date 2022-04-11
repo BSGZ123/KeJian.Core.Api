@@ -14,6 +14,7 @@ namespace KeJian.Core.EntityFramework.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
+                    IsDeleted = table.Column<bool>(nullable: false),
                     Img = table.Column<string>(nullable: true),
                     Title = table.Column<string>(nullable: true),
                     Content = table.Column<string>(nullable: true),
@@ -31,6 +32,7 @@ namespace KeJian.Core.EntityFramework.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
+                    IsDeleted = table.Column<bool>(nullable: false),
                     Year = table.Column<string>(nullable: true),
                     Content = table.Column<string>(nullable: true)
                 },
@@ -45,6 +47,7 @@ namespace KeJian.Core.EntityFramework.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
+                    IsDeleted = table.Column<bool>(nullable: false),
                     Key = table.Column<string>(nullable: true),
                     Content = table.Column<string>(nullable: true)
                 },
@@ -59,6 +62,7 @@ namespace KeJian.Core.EntityFramework.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
+                    IsDeleted = table.Column<bool>(nullable: false),
                     Img = table.Column<string>(nullable: true),
                     Remark = table.Column<string>(nullable: true),
                     CreateTime = table.Column<DateTime>(nullable: true)
@@ -74,6 +78,7 @@ namespace KeJian.Core.EntityFramework.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
+                    IsDeleted = table.Column<bool>(nullable: false),
                     Img = table.Column<string>(nullable: true),
                     Remark = table.Column<string>(nullable: true),
                     CreateTime = table.Column<DateTime>(nullable: true)
@@ -89,6 +94,7 @@ namespace KeJian.Core.EntityFramework.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
+                    IsDeleted = table.Column<bool>(nullable: false),
                     IsMess = table.Column<bool>(nullable: false),
                     Name = table.Column<string>(nullable: true),
                     Phone = table.Column<string>(nullable: true),
@@ -108,6 +114,7 @@ namespace KeJian.Core.EntityFramework.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
+                    IsDeleted = table.Column<bool>(nullable: false),
                     Title = table.Column<string>(nullable: true),
                     Img = table.Column<string>(nullable: true),
                     Type = table.Column<int>(nullable: false),
@@ -125,6 +132,7 @@ namespace KeJian.Core.EntityFramework.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
+                    IsDeleted = table.Column<bool>(nullable: false),
                     Title = table.Column<string>(nullable: true),
                     Content = table.Column<string>(nullable: true),
                     Type = table.Column<int>(nullable: false),
@@ -141,6 +149,7 @@ namespace KeJian.Core.EntityFramework.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
+                    IsDeleted = table.Column<bool>(nullable: false),
                     Title = table.Column<string>(nullable: true),
                     Content = table.Column<string>(nullable: true),
                     CreateTime = table.Column<DateTime>(nullable: true)
@@ -156,6 +165,7 @@ namespace KeJian.Core.EntityFramework.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
+                    IsDeleted = table.Column<bool>(nullable: false),
                     Img = table.Column<string>(nullable: true),
                     Remark = table.Column<string>(nullable: true),
                     CreateTime = table.Column<DateTime>(nullable: true)
@@ -171,6 +181,7 @@ namespace KeJian.Core.EntityFramework.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
+                    IsDeleted = table.Column<bool>(nullable: false),
                     LoginName = table.Column<string>(nullable: true),
                     Password = table.Column<string>(nullable: true),
                     IsAction = table.Column<bool>(nullable: false),
