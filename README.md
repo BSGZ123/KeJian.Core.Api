@@ -1,13 +1,17 @@
 ﻿# KeJian.Core.Api
 
+### 对于原项目的一些改进
+1.更新依赖 将.Net3.1 升级到.Net6
+2.解决了升级过程的问题
+
 ### ✨ 站点部署
-> System：Linux - CentOS 7.7   
-> DB：MySql  
-> Api Host : [kejianapi.filog.cn/swagger](http://kejianapi.filog.cn/swagger)  
-> Web Host : [kejian.filog.cn](http://kejian.filog.cn/) （接口正在替换为新接口）  
+> System：Linux - Debian 11   
+> DB：MySql 5.7.42
+> Api Host : [kejianapi.filog.cn/swagger](xxxxxx)  
+> Web Host : [kejian.filog.cn](xxxxxxxx) （接口正在替换为新接口）  
 > 测试账号：admin 123456  
 
-> 有小伙伴要的表结构 [TableSql.sql](https://github.com/ifzc/KeJian.Core.Api/blob/master/TableSql.sql) 
+> 后端配合数据库脚本在本仓库根目录下
 
 ### 🔥 简单两步即可运行项目
 > Step 1 :   
