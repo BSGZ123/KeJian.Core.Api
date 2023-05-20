@@ -1,4 +1,4 @@
-﻿using System.Diagnostics;
+using System.Diagnostics;
 using KeJian.Core.Library.Attributes;
 using KeJian.Core.Library.Dto;
 using Microsoft.AspNetCore.Mvc;
@@ -16,9 +16,7 @@ namespace KeJian.Core.Library.Filter
                     typeof(NotWarpApiResultAttribute), false) ?? false;
             if (notWarpApiResultAttribute)
                 return;
-
-            var or = context.Result as ObjectResult;
-            if (or == null || or.Value is ApiResult)
+            if (context.Result is not ObjectResult or|| or.Value is ApiResult)
             {
                 if (context.Result is EmptyResult)
                 {
