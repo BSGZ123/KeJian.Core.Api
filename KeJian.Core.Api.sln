@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KeJian.Core.Domain", "src\K
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KeJian.Core.Library", "src\KeJian.Core.Library\KeJian.Core.Library.csproj", "{CA8E36B3-560A-49AB-A51B-491879312E48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeJian.Core.Application", "src\KeJian.Core.Application\KeJian.Core.Application.csproj", "{B1981F15-21AD-4340-8818-36BB1AAA7E3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KeJian.Core.Application", "src\KeJian.Core.Application\KeJian.Core.Application.csproj", "{B1981F15-21AD-4340-8818-36BB1AAA7E3D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

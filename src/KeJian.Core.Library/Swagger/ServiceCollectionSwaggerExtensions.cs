@@ -38,9 +38,9 @@ namespace KeJian.Core.Library.Swagger
                     Title = assemblyName,
                     Contact = new OpenApiContact()
                     {
-                        Email = "ifengzc@163.com",
-                        Name = "feng",
-                        Url = new Uri("https://github.com/ifzc")
+                        Email = "jackbwy@163.com",
+                        Name = "bwy",
+                        Url = new Uri("https://github.com/BSGZ123")
                     }
                 });
                 options.CustomSchemaIds(t => t.FullName);

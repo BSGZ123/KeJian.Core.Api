@@ -52,7 +52,7 @@ namespace KeJian.Core.Api.Controllers
 
                 section = await reader.ReadNextSectionAsync();
             }
-
+            
             return _fileServerHost + "/" + fileName;
         }
 

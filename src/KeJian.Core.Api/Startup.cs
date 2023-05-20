@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System;
+using System.Text;
 using KeJian.Core.Application;
 using KeJian.Core.Domain.Configs;
 using KeJian.Core.EntityFramework;
@@ -28,7 +29,7 @@ namespace KeJian.Core.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContextPool<DefaultDbContext>(
-                options => { options.UseMySql(Configuration.GetConnectionString("DefaultConnection")); }, 20);
+                options => { options.UseMySql(Configuration.GetConnectionString("DefaultConnection"), new MySqlServerVersion(new Version(5, 7, 19))); }, 20);
 
             services.AddOptions();
             services.Configure<JwtSecurityOption>(Configuration.GetSection("JwtSecurityOption"));
