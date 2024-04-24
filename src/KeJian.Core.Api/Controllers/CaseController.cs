@@ -1,11 +1,11 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using KeJian.Core.Application.Interface;
+using GuiJun.Core.Application.Interface;
 using KeJian.Core.Domain.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace KeJian.Core.Api.Controllers
+namespace GuiJun.Core.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

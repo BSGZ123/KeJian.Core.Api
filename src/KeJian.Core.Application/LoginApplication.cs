@@ -4,7 +4,7 @@ using System.Linq;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
-using KeJian.Core.Application.Interface;
+using GuiJun.Core.Application.Interface;
 using KeJian.Core.Domain.Configs;
 using KeJian.Core.Domain.Dto;
 using KeJian.Core.EntityFramework;
@@ -15,7 +15,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 
-namespace KeJian.Core.Application
+namespace GuiJun.Core.Application
 {
     public class LoginApplication : ILoginApplication
     {

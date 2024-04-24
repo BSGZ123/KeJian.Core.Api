@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace KeJian.Core.Application.Interface
+namespace GuiJun.Core.Application.Interface
 {
     public interface IBaseApplication<TEntity>
     {

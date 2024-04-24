@@ -1,8 +1,9 @@
-﻿using KeJian.Core.Application.Interface;
+﻿using GuiJun.Core.Application.Interface;
+using KeJian.Core.Application;
 using KeJian.Core.Domain.Models;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace KeJian.Core.Application
+namespace GuiJun.Core.Application
 {
     public static class ApplicationExtensions
     {

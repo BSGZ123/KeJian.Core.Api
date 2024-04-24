@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Text;
-using KeJian.Core.Application;
+using GuiJun.Core.Application;
 using KeJian.Core.Domain.Configs;
 using KeJian.Core.EntityFramework;
 using KeJian.Core.Library;
@@ -14,7 +14,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
 
-namespace KeJian.Core.Api
+namespace GuiJun.Core.Api
 {
     public class Startup
     {

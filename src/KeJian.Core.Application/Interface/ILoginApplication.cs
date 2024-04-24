@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
 using KeJian.Core.Domain.Dto;
 
-namespace KeJian.Core.Application.Interface
+namespace GuiJun.Core.Application.Interface
 {
     public interface ILoginApplication
     {

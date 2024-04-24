@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using KeJian.Core.Application.Interface;
+using GuiJun.Core.Application.Interface;
 using KeJian.Core.Domain.Models;
 using KeJian.Core.EntityFramework;
 using KeJian.Core.Library.Exception;
@@ -10,7 +10,7 @@ using KeJian.Core.Library.Extensions;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace KeJian.Core.Application
+namespace GuiJun.Core.Application
 {
     public class UserApplication : IBaseApplication<User>
     {

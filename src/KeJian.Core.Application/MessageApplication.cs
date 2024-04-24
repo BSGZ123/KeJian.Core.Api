@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using KeJian.Core.Application.Interface;
+using GuiJun.Core.Application.Interface;
 using KeJian.Core.Domain.Models;
 using KeJian.Core.EntityFramework;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace KeJian.Core.Application
+namespace GuiJun.Core.Application
 {
     public class MessageApplication : IBaseApplication<Message>
     {

@@ -12,8 +12,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\KeJian.Core.EntityFramework\KeJian.Core.EntityFramework.csproj" />
-		<ProjectReference Include="..\KeJian.Core.Library\KeJian.Core.Library.csproj" />
+		<ProjectReference Include="..\KeJian.Core.EntityFramework\GuiJun.Core.EntityFramework.csproj" />
+		<ProjectReference Include="..\KeJian.Core.Library\GuiJun.Core.Library.csproj" />
 	</ItemGroup>
 
 </Project>

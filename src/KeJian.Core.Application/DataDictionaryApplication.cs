@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using KeJian.Core.Application.Interface;
+using GuiJun.Core.Application.Interface;
 using KeJian.Core.Domain.Models;
 using KeJian.Core.EntityFramework;
 using KeJian.Core.Library.Exception;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace KeJian.Core.Application
+namespace GuiJun.Core.Application
 {
     public class DataDictionaryApplication : IDataDictionaryApplication
     {
@@ -64,7 +64,7 @@ namespace KeJian.Core.Application
 
         public async Task<bool> DeleteAsync(int id)
         {
-            var entity = new DataDictionary {Id = id, IsDeleted = true};
+            var entity = new DataDictionary { Id = id, IsDeleted = true };
             _dbContext.Entry(entity).Property(e => e.IsDeleted).IsModified = true;
             return await _dbContext.SaveChangesAsync() > 0;
         }

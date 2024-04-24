@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Net.Http.Headers;
 
-namespace KeJian.Core.Api.Controllers
+namespace GuiJun.Core.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

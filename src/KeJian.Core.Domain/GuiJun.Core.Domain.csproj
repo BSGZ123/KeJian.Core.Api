@@ -17,7 +17,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\KeJian.Core.Library\KeJian.Core.Library.csproj" />
+	  <ProjectReference Include="..\KeJian.Core.Library\GuiJun.Core.Library.csproj" />
 	</ItemGroup>
 
 </Project>
