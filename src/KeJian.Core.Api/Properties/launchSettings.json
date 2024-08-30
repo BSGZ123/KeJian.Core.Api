@@ -7,6 +7,9 @@
       "sslPort": 0
     }
   },
+  // Project only use Kestrel(Hosting Setting lgnored)
+  // IISExpress In/OutOfProcess  IISPress/IISPress+Kestrel
+  //IIS In/OutOfProcess IIS/IIS+Kestrel
   "$schema": "http://json.schemastore.org/launchsettings.json",
   "profiles": {
     "demo": {
