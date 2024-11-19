@@ -6,9 +6,19 @@
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.33" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="6.0.33" />
 		<PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.36.0" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+		<PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.3.0" />
+		<PackageReference Include="System.Drawing.Common" Version="4.7.2" />
 		<PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.36.0" />
-		<PackageReference Include="System.Text.Json" Version="6.0.9" />
+		<PackageReference Include="System.Net.Http" Version="4.3.4" />
+		<PackageReference Include="System.Private.Uri" Version="4.3.2" />
+		<PackageReference Include="System.Security.Cryptography.Xml" Version="4.7.1" />
+		<PackageReference Include="System.Text.Encodings.Web" Version="4.5.1" />
+		<PackageReference Include="System.Text.Json" Version="6.0.11" />
+		<PackageReference Include="System.Text.RegularExpressions" Version="4.3.1" />
 	</ItemGroup>
 
 	<ItemGroup>
