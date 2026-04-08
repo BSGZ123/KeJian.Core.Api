@@ -57,9 +57,10 @@ namespace GuiJun.Core.Api
             services.AddCors(options => options.AddPolicy("CorsPolicy", builder =>
             {
                 builder
-                    .AllowAnyOrigin()
+                    .WithOrigins("https://www.ycgjie.cn") // 明确指定前端域名
                     .AllowAnyHeader()
-                    .WithMethods("GET", "POST", "PUT", "DELETE", "OPTIONS");
+                    .AllowAnyMethod()
+                    .AllowCredentials();
             }));
 
             services.AddApplication();
@@ -69,7 +70,18 @@ namespace GuiJun.Core.Api
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            if (env.IsDevelopment()) app.UseDeveloperExceptionPage();
+            if (env.IsDevelopment())
+            {
+                app.UseDeveloperExceptionPage();
+            }
+            else
+            {
+                // 生产环境启用HSTS
+                app.UseHsts();
+            }
+
+            // HTTP自动重定向到HTTPS
+            app.UseHttpsRedirection();
 
             app.UseRouting();
             app.UseCors("CorsPolicy");
